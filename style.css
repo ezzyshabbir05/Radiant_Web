@@ -197,6 +197,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    height: 9rem;
     width: 100%;
     z-index: 1000;
     padding: 4rem 12% 4rem;
@@ -205,8 +206,9 @@ body{
     align-items: center;
 }
 
-.header.blur {
-  backdrop-filter: blur(30px);
+.header.navblur {
+  backdrop-filter: blur(22px);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -251,6 +253,7 @@ body{
 section{
     min-height: 100vh;
     padding: 10rem 12% 10rem;
+    padding-top: 150px;
 }
 
 .home{
@@ -311,6 +314,10 @@ section{
     min-width: 280px;
 }
 
+.strong{
+  font-weight: 600;
+}
+
 .aboutus{
     display: flex;
     gap: 15rem;
@@ -338,6 +345,15 @@ section{
   font-weight: 500;
   font-size: 2.5rem;
   min-width: 280px;
+  padding-top: 2rem;
+}
+
+.aboutus-list{
+  font-weight: 500;
+  font-size: 2.5rem;
+  min-width: 280px;
+  padding-top: 1.4rem;
+  padding-left: 5rem;
 }
 
 /*members style section*/
@@ -368,4 +384,5 @@ section{
   font-weight: 500;
   font-size: 2.5rem;
   min-width: 280px;
+  padding-top: 2rem;
 }
