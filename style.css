@@ -311,5 +311,4 @@ section{
 .text-animation span{
     position: relative;
     color: var(--main-color);
-    animation: words 20s infinite;
 }
