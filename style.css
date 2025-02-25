@@ -55,7 +55,7 @@ body{
 }
 
 .logo span{
-    font-family: "Cinzel Decorative", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-shadow: 0 0 15px var(--main-color);
     color: var(--main-color);
 }
