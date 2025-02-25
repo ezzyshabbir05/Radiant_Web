@@ -206,6 +206,11 @@ body{
     align-items: center;
 }
 
+.header.blur {
+  backdrop-filter: blur(30px);
+}
+
+
 .logo{
     font-size: 3rem;
     color: var(--text-color);
