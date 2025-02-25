@@ -256,7 +256,6 @@ section{
 .home{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 15rem;
 }
 
@@ -314,8 +313,6 @@ section{
 
 .aboutus{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 15rem;
 }
 
@@ -347,8 +344,6 @@ section{
 
 .members{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 15rem;
 }
 
