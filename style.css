@@ -341,12 +341,12 @@ section{
 .members-content span{
   color: var(--main-color);
 }
-
+/*
 .members-content p{
   margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 3rem;
-}
+}*/
 
 .members-content h2{
   font-size: 5rem;
