@@ -37,6 +37,8 @@ body{
     transform: rotate(10deg);
     transform-origin: top right;
     z-index: -1;
+    zoom: 1;
+    filter: blur(30px);
   }
   .rainbow:nth-child(1) {
     box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px #f4a9ff, 0 0 50px 25px #60a5fa, 50px 0 50px 25px #5eead4, 130px 0 80px 40px white;
@@ -199,7 +201,6 @@ body{
     width: 100%;
     z-index: 1000;
     padding: 4rem 12% 4rem;
-    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -246,7 +247,6 @@ body{
 section{
     min-height: 100vh;
     padding: 10rem 12% 10rem;
-    backdrop-filter: blur(40px);
 }
 
 .home{
@@ -303,12 +303,7 @@ section{
     transform: scale(1.1)translateY(-5px);
 }
 
-.text-animation{
+.home-content-h3{
     font-weight: 600;
     min-width: 280px;
-}
-
-.text-animation span{
-    position: relative;
-    color: var(--main-color);
 }
